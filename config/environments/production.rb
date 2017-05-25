@@ -100,5 +100,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { :host => 'tute-saas-app.herokuapp.com', :protocol => 'https'}
+  config.action_mailer.default_url_options = { :host => 'lang-tute.herokuapp.com', :protocol => 'https'}
 end
